@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+    color : #000000;
+}
+
+.align-left {text-align:left;}
+.align-center {text-align:center;}
+.align-right {text-align:right;}
+.space-50px { width:50px;}
+
+
+#header svg { width: 250px; }
+#header, #main-menu {
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#main-menu div {
+    margin-left: 20px;
+    padding : 12px; 
+    color: rgba(0, 0, 0, 0.92);
+    font-size: 1.3rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    line-height: 2.350rem;
+    text-decoration: none;
+}
+
+#main-menu div:hover {
+    color: #DB8D0D;
+    cursor:pointer;
+}
+#main-menu div span.linkActive {
+    border-bottom: 3px solid #DB8D0D;
+}
+#main-menu div.right { 
+    margin-left: auto;
+}
+#main-menu div.button { 
+    background-color: #DB8D0D;
+    padding: 4px 10px;
+    border-radius: 8px;
+}
+#main-menu div.button, #main-menu div.button a { 
+    color:white;
+    text-decoration: none;
+}
+#main-menu div.button:hover { 
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+#main-menu div.button2 { 
+    background-color: #ffffff;
+    border:1px solid #DB8D0D;
+    color:#DB8D0D;
+    padding: 4px 10px;
+    border-radius: 8px;
+}
+#main-menu div.button2 a { 
+    color:#DB8D0D;
+    text-decoration: none;
+}
+#main-menu div.button2:hover { 
+    background-color: #F4D6A5;
+}
+
+#blockSlider {
+    display: -webkit-box;
+    background-color : #0D5BDB;
+    color : #ffffff;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+#box-header {
+    background-color : #ffffff;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+    height:80px;
+    line-height: 80px;
+}
+
+
+.seprator122 {
+    width: 150px;
+    height: 1px;
+    margin: 32px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d2d2d2;
+}
+.seprator122 span {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+
+
+/****************
+ *   REGISTER
+ ****************/
+.bgRegister {
+    background-image: url('../images/background-register.webp');
+} 
+.boxRegister {
+    color: rgba(0, 0, 0, 0.92);
+    font-size: 1rem;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 1.625rem;
+    border: 1px solid #eeeeee;
+    background-color: white;
+    margin:50px auto;
+}
+.boxRegister h1 { 
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+}
+.boxRegister h2 { 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+}
+.boxRegister label { 
+    width : 200px;
+}
+
+button.button { 
+    border: 1px solid #DB8D0D;
+    background-color: #DB8D0D;
+    padding:10px 20px;
+    border-radius: 8px;
+    color:white;
+    text-decoration: none;
+}
+button.button:hover { 
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+/****************
+ *   FOOTER
+ ****************/
+footer {
+    border-top: 1px solid #cccccc;
+}

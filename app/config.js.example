@@ -1,0 +1,18 @@
+module.exports = {
+    // Github oAuth
+    github : {
+        clientID: '',
+        clientSecret: '',
+    },
+    // Google oAuth
+    google :{
+        clientID: "",
+        clientSecret: "",
+    }, 
+    // cette clef est utilisée comme grain de sel à divers endroits
+    appKey : '',
+    // adresse de notre base de données mongodb
+    database : '',
+    saltRounds : 10,
+    port : 8000
+}
