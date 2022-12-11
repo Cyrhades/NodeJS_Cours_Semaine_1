@@ -14,7 +14,7 @@
     "body-parser": "^1.19.0",
     "browser-refresh": "^1.7.3",
     "chalk": "^2.4.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.17.0",
     "mongoose": "^5.7.8",
     "passport": "^0.4.0",
